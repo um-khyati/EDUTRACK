@@ -1,0 +1,116 @@
+/* --- GLOBAL APP FONT AND BACKGROUND --- */
+.root {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-background-color: #f8fafc; /* Very light, clean gray/blue */
+}
+
+/* --- THE SIDEBAR --- */
+.sidebar {
+    -fx-background-color: #0f172a; /* Deep modern slate */
+}
+
+.sidebar-title {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+}
+
+/* --- CARDS AND PANELS --- */
+.card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #e2e8f0;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 10, 0, 0, 4);
+    -fx-padding: 15;
+}
+
+/* --- BUTTONS --- */
+.button {
+    -fx-background-color: #3b82f6; /* Modern crisp blue */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #2563eb; /* Darker blue on hover */
+}
+
+.btn-danger {
+    -fx-background-color: #ef4444; /* Modern red */
+}
+.btn-danger:hover {
+    -fx-background-color: #dc2626;
+}
+
+.btn-warning {
+    -fx-background-color: #f59e0b; /* Modern amber */
+}
+.btn-warning:hover {
+    -fx-background-color: #d97706;
+}
+
+.btn-success {
+    -fx-background-color: #10b981; /* Modern green */
+}
+.btn-success:hover {
+    -fx-background-color: #059669;
+}
+
+/* --- TEXT FIELDS --- */
+.text-field {
+    -fx-background-color: #f1f5f9;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #3b82f6;
+    -fx-border-width: 2;
+}
+
+/* --- BEAUTIFUL TABLES --- */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f1f5f9;
+    -fx-background-radius: 8 8 0 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #64748b;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 10 0;
+}
+
+.table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #f1f5f9;
+    -fx-border-width: 0 0 1 0;
+    -fx-cell-size: 40px; /* Taller, breathable rows */
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #f8fafc;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #e0f2fe; /* Light blue selection */
+    -fx-text-background-color: #0369a1;
+}
